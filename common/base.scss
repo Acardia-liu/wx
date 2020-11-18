@@ -1,0 +1,30 @@
+/* 页面背景颜色 */
+.page-content {
+	background: #f2f2f2;
+}
+page{
+	background-color:#F2F2F2;
+}
+
+/**
+ * 页面底部距离高度，占位，避免底部bar盖住内容
+ */
+.page-footer-height{
+	height: 120upx;
+}
+
+.text-color-primary{
+	color:$uni-color-primary !important;
+}
+
+.text-color-success{
+	color:$uni-color-success !important;
+}
+
+.text-color-warning{
+	color:$uni-color-warning !important;
+}
+
+.text-color-error{
+	color:$uni-color-error !important;
+}

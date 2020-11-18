@@ -1,0 +1,12 @@
+/.idea
+/.vscode
+/.history
+.idea
+runtime
+*.log
+.env
+.DS_Store
+web.config
+log.txt
+node_modules
+unpackage

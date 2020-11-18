@@ -1,0 +1,251 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"enablePullDownRefresh": true
+
+			}
+		},
+		{
+			"path": "pages/index/activityList",
+			"style": {
+				"navigationBarTitleText": "活动详情"
+
+			}
+		},
+		{
+			"path": "pages/discovery/discovery",
+			"style": {
+				"navigationBarTitleText": "发现",
+				"enablePullDownRefresh": true
+
+			}
+		},
+		{
+			"path": "pages/user/index",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+		    "path" : "pages/user/trends/mydetails",
+		    "style" : {
+				"navigationBarTitleText": "详情",
+				"enablePullDownRefresh": true,
+				"navigationBarBackgroundColor":"#FFFFFF",
+				"navigationBarShadow":{
+					"colorType":"grey"
+				}
+			}
+		},
+		{
+			"path": "pages/user/security",
+			"style": {
+				"navigationBarTitleText": "账号与安全"
+			}
+		},
+		{
+			"path": "pages/user/follow",
+			"style": {
+				"navigationBarTitleText": "关注人设置"
+			}
+		},
+		{
+			"path": "pages/login/forget",
+			"style": {
+				"navigationBarTitleText": "忘记密码"
+			}
+		},
+		{
+			"path": "pages/user/password",
+			"style": {
+				"navigationBarTitleText": "修改密码"
+			}
+		},
+		{
+			"path": "pages/login/register",
+			"style": {
+				"navigationBarTitleText": "快速注册"
+			}
+		},
+		{
+			"path": "pages/login/verification",
+			"style": {
+				"navigationBarTitleText": "验证码",
+				"enablePullDownRefresh": true,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/user/language",
+			"style": {
+				"navigationBarTitleText": "语言切换"
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"navigationBarBackgroundColor":"#FFFFFF"
+			}
+		},
+
+		{
+			"path": "pages/debug/index",
+			"style": {
+				"navigationBarTitleText": "debug"
+			}
+		}
+
+		, {
+			"path": "pages/user/activity/activity",
+			"style": {
+				"navigationBarTitleText": "我的活动",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/discovery/detail",
+			"style": {
+				"navigationBarTitleText": "详情",
+				"navigationBarBackgroundColor":"#FFFFFF",
+				"navigationBarShadow":{
+					"colorType":"grey"
+				},
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/user/focus/focus",
+			"style": {
+				"navigationBarTitleText": "我的关注",
+				"navigationBarBackgroundColor":"#FFFFFF",
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/user/wallet/wallet",
+			"style": {
+				"navigationBarTitleText": "我的钱包",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		}, {
+			"path": "pages/user/wallet/moneyDetails",
+			"style": {
+				"navigationBarTitleText": "钱包明细",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		}, {
+			"path": "pages/user/integral/integral",
+			"style": {
+				"navigationBarTitleText": "我的积分",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		}, {
+			"path": "pages/user/integral/integralRule",
+			"style": {
+				"navigationBarTitleText": "积分规则",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		}, {
+			"path": "pages/user/integral/integralDetails",
+			"style": {
+					"navigationBarTitleText": "积分明细",
+					"navigationBarBackgroundColor": "#FFFFFF"
+				}
+			},
+			{
+				"path": "pages/user/certificates/certificates",
+				"style": {
+					"navigationBarTitleText": "我的证书",
+					"navigationBarBackgroundColor":"#FFFFFF",
+					"enablePullDownRefresh": true
+				}
+			},
+			{
+				"path": "pages/user/trends/trends",
+				"style": {
+					"navigationBarTitleText": "我的动态",
+					"navigationBarBackgroundColor":"#FFFFFF",
+					"enablePullDownRefresh": true,
+					"navigationBarShadow":{
+						"colorType":"grey"
+					}
+				}
+			},
+			{
+				"path": "pages/user/gifts/gifts",
+				"style": {
+					"navigationBarTitleText": "我的礼物",
+					"navigationBarBackgroundColor":"#FFFFFF",
+					"enablePullDownRefresh": true
+				}
+			}
+		    ,{
+            "path" : "pages/user/wallet/coupon",
+            "style" : {
+							"navigationBarTitleText": "优惠券",
+							"navigationBarBackgroundColor": "#FFFFFF"
+							}
+        }
+        ,{
+            "path" : "pages/user/settings/settings",
+            "style" : {
+								"navigationBarTitleText": "我的设置",
+								"navigationBarBackgroundColor": "#FFFFFF"
+							}
+        }
+        ,{
+            "path" : "pages/user/activity/activityDetails",
+            "style" : {
+								"navigationBarTitleText": "活动详情",
+								"navigationBarBackgroundColor": "#FFFFFF"
+							}
+        }
+    ],
+		"globalStyle": {
+			"navigationBarTextStyle": "black",
+			"navigationBarTitleText": "uni-app",
+			"navigationBarBackgroundColor": "#F8F8F8",
+			"backgroundColor": "#F8F8F8",
+			"navigationStyle": "default"
+
+		},
+		"tabBar": {
+			"selectedColor": "#87CEFF",
+			"color": "#ccc",
+			"borderStyle": "black",
+			"backgroundColor": "#fff",
+			"list": [
+
+				{
+					"text": "首页",
+					"pagePath": "pages/index/index",
+					"iconPath": "static/images/discovery/menu-1.png",
+					"selectedIconPath": "static/images/discovery/menu-1-active.png"
+				},
+				{
+					"text": "发现",
+					"pagePath": "pages/discovery/discovery",
+					"iconPath": "static/images/discovery/menu-2.png",
+					"selectedIconPath": "static/images/discovery/menu-2-active.png"
+				},
+				{
+
+					"pagePath": "pages/user/index",
+					"iconPath": "static/images/discovery/menu-3.png",
+					"selectedIconPath": "static/images/discovery/menu-3-active.png",
+					"text": "我的"
+				}
+			]
+		},
+		"condition": { //模式配置，仅开发期间生效
+			"current": 0, //当前激活的模式(list 的索引项)
+			"list": [{
+				"name": "", //模式名称
+				"path": "", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}]
+		}
+	}
