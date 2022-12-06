@@ -16,7 +16,7 @@
     "caniuse-lite": "^1.0.30001158",
     "jweixin-module": "^1.6.0",
     "mini-html-parser2": "^0.1.4",
-    "qs": "^6.9.1",
+    "qs": "^6.9.7",
     "tki-qrcode": "^0.1.6",
     "vue": "^2.0.0",
     "vue-clipboard2": "^0.3.1",
